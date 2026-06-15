@@ -1,0 +1,33 @@
+{
+  "name": "mp-site",
+  "version": "1.0.0",
+  "description": "Morpankh Brand Website Package",
+  "homepage": "https://github.com/spandan-sen/morpankh-brand-website#readme",
+  "bugs": {
+    "url": "https://github.com/spandan-sen/morpankh-brand-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spandan-sen/morpankh-brand-website.git"
+  },
+  "license": "ISC",
+  "author": "Spandan Sen",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.1",
+    "@tailwindcss/vite": "^4.3.1",
+    "chalk": "^4.1.2",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.7.0",
+    "tailwindcss": "^4.3.1"
+  }
+}

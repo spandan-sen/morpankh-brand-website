@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include("partials/links.ejs")%>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="flex justify-between items-center px-9 py-5 fixed bg-parchment w-full">
+        <div class="flex items-baseline gap-2 cursor-pointer">
+            <p class="font-display font-medium text-2xl tracking-wider m-0 p-0">Morpankh</p>
+            <p class="font-body text-lg text-gold tracking-widest font-light m-0 p-0">Dezine</p>
+        </div>
+        <div class="flex gap-10 ">
+            <a href= "#" class="font-body text-xs text-text font-normal tracking-widest relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:h-0.5 before:w-0 before:bg-gold before:transition-all before:duration-300 hover:before:w-full">WOMEN</a>
+            <a href= "#" class="font-body text-xs text-text font-normal tracking-widest relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:h-0.5 before:w-0 before:bg-gold before:transition-all before:duration-300 hover:before:w-full">MEN</a>
+            <a href= "#" class="font-body text-xs text-text font-normal tracking-widest relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:h-0.5 before:w-0 before:bg-gold before:transition-all before:duration-300 hover:before:w-full">HOME DECOR</a>
+            <a href= "#" class="font-body text-xs text-text font-normal tracking-widest relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:h-0.5 before:w-0 before:bg-gold before:transition-all before:duration-300 hover:before:w-full">ORNAMENTS</a>
+            <a href= "#" class="font-body text-xs text-text font-normal tracking-widest hover:text- relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:h-0.5 before:w-0 before:bg-gold before:transition-all before:duration-300 hover:before:w-full">SALE</a>
+
+            <div class="flex gap-5">
+                <a href="#" class="hover:text-teal"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search "><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg></a>
+                <a href= "#" class="hover:text-teal"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-icon lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a>
+                <a href= "#" class="hover:text-teal"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart-icon lucide-shopping-cart"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg></a>
+
+            </div>
+        </div>
+        
+        
+
+    </nav>
+    <section class="flex pt-18">
+        <div class="pl-15 pt-20 bg-navy flex flex-col gap-10 h-[600px] w-1/2">
+            <p class="text-gold font-body tracking-widest text-xs">NEW COLLECTION - HANDLOOM WEAVES 2025</p>
+            <div class="flex flex-col gap-2">
+                <p class="font-display text-6xl text-on-dark">We Craft</p>
+                <p class="font-display text-6xl text-teal">Fashion,</p>
+                <p class="font-display text-6xl text-on-dark">With Passion</p>
+            </div>
+            <p class="text-cream font-body text-sm font-light leading-7">Each piece carries the memory of a weaver's hands —<br> slow craft, honest fabric, worn for years, not seasons.</p>
+            <div class="flex gap-7 items-center">
+                <a href="#" class="border border-gold font-body text-gold tracking-widest text-xs px-7 py-4  align-middle bg-none hover:bg-gold hover:text-navy transition-all duration-400">EXPLORE COLLECTION</a>
+                <a href="#" class="text-cream font-body text-xs tracking-widest hover:translate-x-2 transition-all duration-300 ">OUR STORY →</a>
+
+            </div>
+        </div>
+        <div class="w-1/2">
+            <img class=" w-full h-[600px] object-cover" src="https://ggnwejkyhuxiqdyjzlnb.supabase.co/storage/v1/object/sign/Morpankh-Testing/srinivas-jd-hj50WxMqPVg-unsplash.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83NmExZTVkYy1iYTk5LTRkNTMtYjY5Yi0xNDdhM2MwYWY5YWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJNb3JwYW5raC1UZXN0aW5nL3NyaW5pdmFzLWpkLWhqNTBXeE1xUFZnLXVuc3BsYXNoLmpwZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODE1MDExMTksImV4cCI6MTgxMzAzNzExOX0.5z6-SA3OhMEjyRr8YlCaFSLcd-Veg3NzI2nfn-6Jw1I">
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
